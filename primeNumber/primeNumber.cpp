@@ -21,7 +21,6 @@ int main(){
 			
 			
 		}
-		
 		if(factor == 0)
 			
 			cout<<startNumber<< "\t";
