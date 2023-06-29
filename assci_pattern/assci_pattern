@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main(){
+	
+	int rows;
+	cout<<"Enter the number of a rows";
+	cin >> rows;
+   
+    int assciNumber = 65;
+	char change_character = assciNumber;
+
+	for(int counter = 0; rows > 0; rows-- ){
+		
+		for(int column = 0; column < rows; column++){
+            
+            cout << change_character;
+			change_character++;
+			
+			
+			
+		}
+		cout<<endl;
+	
+	change_character = assciNumber;
+	
+	}
+	
+	
+	
+	
+	
+	
+	return 0;
+}
